@@ -14,11 +14,13 @@ st.set_page_config(page_title = "XGBoost Classifier", page_icon = "🧮")
 
 st.markdown("# XGBoost Classifier 🧮")
 st.sidebar.header("XGBoost Classifier")
-st.write(
+st.markdown(
     """
     Here is where you can input predictions and see what the model returns! The code used to train the model will be on my GitHub:
     """
 )
+
+st.write('https://github.com/saujanya98/streamlit_xgb_classifier_app')
 
 predictions = st.container()
 
